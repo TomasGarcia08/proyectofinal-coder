@@ -454,7 +454,8 @@ font-family: 'Montserrat', sans-serif; */
   
 /* contacto */
 .contacto-gradients {
-    background: linear-gradient(to top, #eb780dea, rgba(255, 183, 0, 0.659));
+    background: linear-gradient(to top, #ffa60089, #ff9100);
+    color: white;
 }
 
 .imagen_contacto {
