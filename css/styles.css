@@ -16,6 +16,15 @@ font-family: 'Montserrat', sans-serif; */
     background-color: rgba(255, 235, 205, 0.522);
 }
 
+.body-productos {
+    background: linear-gradient(to bottom,#0000ff47, cyan);
+}
+.body-accesorios {
+    background: linear-gradient(to top, rgb(241, 98, 122), white);
+}
+.body-servicios {
+    background: linear-gradient(to bottom,#eed5a5, chocolate );
+}
 /* header */
 
 .header {
