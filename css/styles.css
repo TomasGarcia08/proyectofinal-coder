@@ -491,7 +491,8 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .grid_galeria {  
-    max-width: 1000px;
+    max-width: 950px;
+    align-content: center;
     margin: 0 auto;
     justify-content: center;
     display: grid;
@@ -509,6 +510,7 @@ font-family: 'Montserrat', sans-serif; */
 }
  .img1 img {
     width: 300px;
+    
  } 
   .img2 { 
     grid-area: img2; 
