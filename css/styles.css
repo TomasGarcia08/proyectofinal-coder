@@ -647,9 +647,17 @@ font-family: 'Montserrat', sans-serif; */
         font-size: 10px;
     }
     .grid_galeria {  
-        max-width: 700px;
-    
-
+        max-width: 600px;
+        align-content: center;
+        margin: 0 auto;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(6, 10%);
+        grid-template-rows: repeat(3, 27%);
+        grid-template-areas: 
+        "img1 img1 img1 img2 img2 img2"
+        "img3 img3 img3 img4 img4 img4"
+        "img5 img5 img5 img6 img6 img6";
     }
      .img1 img {
         width: 200px;
@@ -923,27 +931,40 @@ font-family: 'Montserrat', sans-serif; */
     }
     .grid_galeria {  
         max-width: 400px;
+        align-content: center;
+        margin:0 auto;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,  50%);
+        grid-template-rows: repeat(6, 15%);
+        grid-template-areas: 
+        "img1 img1"
+        "img2 img2"
+        "img3 img3"
+        "img4 img4"
+        "img5 img5"
+        "img6 img6"; 
     }
      .img1 img {
-        width: 100px;
-     } 
+        width: 250px;
+     }
     .img2 img {
-        width: 100px;
+        width: 250px;
      } 
     .img3 img {
-        width: 100px;
+        width: 250px;
      } 
       
     .img4 img {
-        width: 100px;
+        width: 250px;
      } 
       
     .img5 img {
-        width: 100px;
+        width: 250px;
      } 
       
     .img6 img {
-        width: 100px;
+        width: 250px;
      } 
 
      .contenedor_servicios {
