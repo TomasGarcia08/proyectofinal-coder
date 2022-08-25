@@ -135,8 +135,8 @@ font-family: 'Montserrat', sans-serif; */
 
 .titulo_destacado h3 {
     text-decoration: none;
-    color: #FDF0D5;
-    background-color: #780000;
+    color: black;
+    background-color: burlywood;
 }
 
 .tercera_seccion {
@@ -368,6 +368,7 @@ font-family: 'Montserrat', sans-serif; */
 
 .aside_acc ul {
     text-align: center;
+    list-style-type: none;
 }
 
 .aside_acc li {
@@ -377,7 +378,6 @@ font-family: 'Montserrat', sans-serif; */
 .aside_acc a {
     text-decoration: none;
     color: black;
-
 }
 
 .aside_acc a:hover {
