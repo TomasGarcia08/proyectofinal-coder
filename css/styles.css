@@ -13,27 +13,32 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .body {
-    background-color: rgba(255, 235, 205, 0.522);
+    background: linear-gradient(to bottom, burlywood, rgba(128, 77, 0, 0.366));
 }
 
 .body-productos {
-    background: linear-gradient(to bottom,#0000ff47, cyan);
+    background: linear-gradient(to bottom, burlywood, rgba(128, 77, 0, 0.366));
 }
+
 .body-accesorios {
-    background: linear-gradient(to top, rgb(241, 98, 122), white);
+    background: linear-gradient(to bottom, burlywood, rgba(128, 77, 0, 0.36));
 }
+
 .body-servicios {
-    background: linear-gradient(to bottom,#eed5a5, chocolate );
+    background: linear-gradient(to bottom, burlywood, rgba(128, 77, 0, 0.36));
 }
+
 /* header */
 
 .header {
-    background-color: #780000;
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/11/23/05/dog-2393826__340.jpg);
+    background-size: contain;
     text-align: center;
 }
 
 .primer_parrafo {
-    background-color: #FDF0D5;
+    color: black;
+    background-color: burlywood;
 
 }
 
@@ -43,11 +48,12 @@ font-family: 'Montserrat', sans-serif; */
 
 .nombreP {
     text-align: center;
-    color: #FDF0D5;
-}
+    color: burlywood;
+ }
 
 .nav {
-    background-color: #780000;
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/11/23/05/dog-2393826__340.jpg);
+    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -61,7 +67,7 @@ font-family: 'Montserrat', sans-serif; */
     margin: 10px;
     padding: 5px;
     width: 150px;
-    background-color: #FDF0D5;
+    background-color: burlywood;
 
 }
 
@@ -71,7 +77,7 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .nav a:hover {
-    background-color: cyan;
+    background-color: wheat;
 }
 
 .logo_inicio {
@@ -124,7 +130,7 @@ font-family: 'Montserrat', sans-serif; */
     text-align: center;
     margin: 30px;
     transform: skew(-20deg)
- }
+}
 
 
 .titulo_destacado h3 {
@@ -148,7 +154,7 @@ font-family: 'Montserrat', sans-serif; */
     text-align: center;
     padding: 5px;
     margin: 5px;
-    
+
 }
 
 .tercera_seccion img {
@@ -176,7 +182,7 @@ font-family: 'Montserrat', sans-serif; */
 .footer {
     text-align: center;
     font-size: 13px;
-    background-color: #FDF0D5;;
+    background-color: rgba(222, 184, 135, 0.656);
 }
 
 .footer ul {
@@ -218,7 +224,7 @@ font-family: 'Montserrat', sans-serif; */
 
 .seccion_productosp img {
     width: 150px;
- }
+}
 
 .aside {
     width: 200px;
@@ -226,9 +232,11 @@ font-family: 'Montserrat', sans-serif; */
     display: inline-block;
     text-align: center;
 }
+
 .aside a:hover {
     background-color: #0084ffb8;
 }
+
 .aside h3 {
     text-decoration: none;
 }
@@ -244,7 +252,7 @@ font-family: 'Montserrat', sans-serif; */
 .aside a {
     text-decoration: none;
     color: black;
-    
+
 }
 
 .seccion_productosg div {
@@ -281,6 +289,7 @@ font-family: 'Montserrat', sans-serif; */
 .aside_cat a:hover {
     background-color: #0084ffb8;
 }
+
 .aside_cat ul {
     text-align: center;
 }
@@ -308,8 +317,7 @@ font-family: 'Montserrat', sans-serif; */
     width: 250px;
     margin-left: 50px;
     background-color: #fec341;
-    transform: skew(-15deg)
-    translate(30px)
+    transform: skew(-15deg) translate(30px)
 }
 
 /* accesorios */
@@ -346,12 +354,14 @@ font-family: 'Montserrat', sans-serif; */
     margin-top: 20px;
     width: 100%;
 }
+
 .aside_acc {
     width: 200px;
     height: 300px;
     display: inline-block;
     text-align: center;
 }
+
 .aside_acc h3 {
     text-decoration: none;
 }
@@ -367,11 +377,13 @@ font-family: 'Montserrat', sans-serif; */
 .aside_acc a {
     text-decoration: none;
     color: black;
-    
+
 }
+
 .aside_acc a:hover {
-    background-color:  rgb(241, 98, 122);
+    background-color: rgb(241, 98, 122);
 }
+
 /* servicios */
 .contenedor_servicios {
     display: flex;
@@ -492,12 +504,13 @@ font-family: 'Montserrat', sans-serif; */
     color: #FDF0D5;
 }
 
-  
+
 /* contacto */
 .contacto-gradients {
-    background: linear-gradient(to bottom, #780000, #fbf3f3dd);
+    background: linear-gradient(to bottom, burlywood, rgba(128, 77, 0, 0.366));
     color: #FDF0D5;
 }
+
 .imagen_contacto {
     background-color: rgba(255, 166, 0, 0.3);
 }
@@ -509,7 +522,6 @@ font-family: 'Montserrat', sans-serif; */
 .seccion_contacto {
     text-align: center;
     font-family: 'Mouse Memoirs', sans-serif;
-    background-color: rgba(255, 166, 0, 0.3);
 }
 
 .seccion_contacto h3 {
@@ -521,6 +533,7 @@ font-family: 'Montserrat', sans-serif; */
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 30px;
 }
+
 .mapa_iframe {
     width: 800px;
     height: 450px;
@@ -531,61 +544,102 @@ font-family: 'Montserrat', sans-serif; */
     padding: 5px;
 }
 
-.grid_galeria {  
+.grid_galeria {
     max-width: 950px;
     align-content: center;
     margin: 0 auto;
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(6, 16,66%);
+    grid-template-columns: repeat(6, 16, 66%);
     grid-template-rows: repeat(4, 20%);
     grid-template-areas:
-      "img1 img1 img2 img2 img3 img3"
-      "img1 img1 img2 img2 img3 img3"
-      "img4 img4 img5 img5 img6 img6"
-      "img4 img4 img5 img5 img6 img6";
-  }
-  
-  .img1 { 
+        "img1 img1 img2 img2 img3 img3"
+        "img1 img1 img2 img2 img3 img3"
+        "img4 img4 img5 img5 img6 img6"
+        "img4 img4 img5 img5 img6 img6";
+}
+
+.img1 {
     grid-area: img1;
 }
- .img1 img {
+
+.img1 img {
     width: 300px;
-    
- } 
-  .img2 { 
-    grid-area: img2; 
+
 }
+
+.img2 {
+    grid-area: img2;
+}
+
 .img2 img {
     width: 300px;
- } 
-  .img3 { 
-    grid-area: img3; 
 }
+
+.img3 {
+    grid-area: img3;
+}
+
 .img3 img {
     width: 300px;
- } 
-  
-  .img4 { 
-    grid-area: img4; 
 }
+
+.img4 {
+    grid-area: img4;
+}
+
 .img4 img {
     width: 300px;
- } 
-  
-  .img5 { 
-    grid-area: img5; 
 }
+
+.img5 {
+    grid-area: img5;
+}
+
 .img5 img {
     width: 300px;
- } 
-  
-  .img6 { 
-    grid-area: img6; 
 }
+
+.img6 {
+    grid-area: img6;
+}
+
 .img6 img {
     width: 300px;
- } 
+}
+
+
+@media (max-width:1024px) {
+    .contenedor_servicios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .peluqueria_seccion {
+        margin: 20px;
+        padding: 10px;
+    }
+    
+    .turnos_peluqueria {
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    
+    
+    .veterinaria_seccion {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    
+    .turnos_veterinaria {
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    
+}
+
 
 @media (max-width: 768px) {
     .header {
@@ -646,7 +700,8 @@ font-family: 'Montserrat', sans-serif; */
     .footer {
         font-size: 10px;
     }
-    .grid_galeria {  
+
+    .grid_galeria {
         max-width: 600px;
         align-content: center;
         margin: 0 auto;
@@ -654,45 +709,49 @@ font-family: 'Montserrat', sans-serif; */
         display: grid;
         grid-template-columns: repeat(6, 10%);
         grid-template-rows: repeat(3, 27%);
-        grid-template-areas: 
-        "img1 img1 img1 img2 img2 img2"
-        "img3 img3 img3 img4 img4 img4"
-        "img5 img5 img5 img6 img6 img6";
+        grid-template-areas:
+            "img1 img1 img1 img2 img2 img2"
+            "img3 img3 img3 img4 img4 img4"
+            "img5 img5 img5 img6 img6 img6";
     }
-     .img1 img {
+
+    .img1 img {
         width: 200px;
-     } 
+    }
+
     .img2 img {
         width: 200px;
-     } 
+    }
+
     .img3 img {
         width: 200px;
-     } 
-      
+    }
+
     .img4 img {
         width: 200px;
-     } 
-      
+    }
+
     .img5 img {
         width: 200px;
-     } 
-      
+    }
+
     .img6 img {
         width: 200px;
-     } 
+    }
 
-     .seccion_productosp {
+    .seccion_productosp {
         display: flex;
         flex-direction: column;
         align-items: center;
-     }
-     .seccion_productosp div {
+    }
+
+    .seccion_productosp div {
         display: flex;
         flex-direction: column;
         width: 170px;
         height: 270px;
     }
-    
+
     .aside {
         display: flex;
         flex-direction: row;
@@ -705,25 +764,26 @@ font-family: 'Montserrat', sans-serif; */
     .aside ul {
         list-style-type: none;
     }
+
     .seccion_productosg {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    
+
+
     .seccion_productosg img {
         margin-top: 10px;
     }
-    
+
     .aside_cat {
         width: 200px;
         height: 300px;
         display: inline-block;
         text-align: center;
-    
+
     }
-    
+
     .aside_cat ul {
         list-style-type: none;
     }
@@ -738,15 +798,17 @@ font-family: 'Montserrat', sans-serif; */
     .imagen_accesorios {
         height: 300px;
     }
-    
+
     .imagen_accesorios p {
         padding-top: 200px;
     }
+
     .seccion_accesorios {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .seccion_accesorios div {
         display: flex;
         flex-direction: column;
@@ -760,28 +822,28 @@ font-family: 'Montserrat', sans-serif; */
         flex-direction: column;
         align-items: center;
     }
-    
+
     .peluqueria_seccion {
         height: 550px;
         width: 510px;
         margin: 20px;
         padding: 10px;
     }
-    
+
     .peluqueria_seccion p {
         font-size: 12px;
     }
-    
+
     .peluqueria_seccion h3 {
         font-size: 13px;
     }
-    
+
     .peluqueria_seccion img {
         margin: 5px;
         width: 350px;
     }
-    
-    .img_logo img{ 
+
+    .img_logo img {
         width: 50px;
     }
 
@@ -791,33 +853,33 @@ font-family: 'Montserrat', sans-serif; */
         margin-top: 20px;
         margin-right: 5px;
     }
-    
+
     .turnos_peluqueria p {
         padding: 5px;
     }
-    
+
     .turnos_peluqueria li {
         padding: 5px;
         font-size: 12px;
     }
-    
+
     .veterinaria_seccion {
         height: 550px;
         width: 510px;
         margin: 20px;
         padding: 10px;
     }
-    
+
     .veterinaria_seccion p {
         padding: 5px;
         font-size: 12px;
     }
-    
+
     .veterinaria_seccion h3 {
         margin: 5px;
         font-size: 13px;
     }
-    
+
     .veterinaria_seccion img {
         width: 350px;
         margin: 5px;
@@ -826,7 +888,7 @@ font-family: 'Montserrat', sans-serif; */
     .img_logo img {
         width: 50px;
     }
-    
+
     .turnos_veterinaria {
         height: 380px;
         width: 350px;
@@ -834,29 +896,30 @@ font-family: 'Montserrat', sans-serif; */
         margin-top: 20px;
         margin-right: 10px;
     }
-    
+
     .turnos_veterinaria p {
         padding: 5px;
     }
-    
-    
+
     .turnos_veterinaria li {
         padding: 5px;
         font-size: 12px;
     }
+
     .mapa_iframe {
         width: 500px;
         height: 450px;
     }
+
     .seccion_contacto h3 {
         font-size: 20px;
     }
-    
+
     .seccion_contacto p {
         font-size: 20px;
     }
 
-} 
+}
 
 
 
@@ -880,8 +943,8 @@ font-family: 'Montserrat', sans-serif; */
         background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=600);
         height: 300px;
         margin: 5px;
-        padding: 15px;
-        width: 100vw;
+        padding: 5px;
+        width: 420px;
     }
 
     .segunda_seccion {
@@ -925,136 +988,142 @@ font-family: 'Montserrat', sans-serif; */
     .div_banner h3 {
         font-size: 20px;
     }
-    
+
     .div_banner img {
         width: 50px;
     }
-    .grid_galeria {  
+
+    .grid_galeria {
         max-width: 400px;
         align-content: center;
-        margin:0 auto;
+        margin: 0 auto;
         justify-content: center;
         display: grid;
-        grid-template-columns: repeat(2,  50%);
+        grid-template-columns: repeat(2, 50%);
         grid-template-rows: repeat(6, 15%);
-        grid-template-areas: 
-        "img1 img1"
-        "img2 img2"
-        "img3 img3"
-        "img4 img4"
-        "img5 img5"
-        "img6 img6"; 
+        grid-template-areas:
+            "img1 img1"
+            "img2 img2"
+            "img3 img3"
+            "img4 img4"
+            "img5 img5"
+            "img6 img6";
     }
-     .img1 img {
+
+    .img1 img {
         width: 250px;
-     }
+    }
+
     .img2 img {
         width: 250px;
-     } 
+    }
+
     .img3 img {
         width: 250px;
-     } 
-      
+    }
+
     .img4 img {
         width: 250px;
-     } 
-      
+    }
+
     .img5 img {
         width: 250px;
-     } 
-      
+    }
+
     .img6 img {
         width: 250px;
-     } 
+    }
 
-     .contenedor_servicios {
+    .contenedor_servicios {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .peluqueria_seccion {
         height: 500px;
-        width: 100vw;
-        margin: 20px;
-        padding: 10px;
+        width: 350px;
+        margin: 0 auto;
+        padding: 5px;
     }
-    
+
     .peluqueria_seccion p {
         padding: 5px;
         font-size: 12px;
     }
-    
+
     .peluqueria_seccion h3 {
-        margin: 5px;
+        margin: 0 auto;
         font-size: 12px;
     }
-    
+
     .peluqueria_seccion img {
         width: 300px;
-        margin: 5px;
+        margin: 0 auto;
     }
+
     .img_logo img {
         width: 40px;
     }
-     
+
     .turnos_peluqueria {
         height: 300px;
         width: 350px;
         margin-top: 20px;
-        margin-right: 10px;
+        margin-right: 1px;
         border: #780000 5px solid;
         border-radius: 10%;
     }
-    
+
     .turnos_peluqueria p {
         padding: 5px;
     }
-    
-    
+
+
     .turnos_peluqueria li {
         padding: 5px;
     }
-    
+
     .veterinaria_seccion {
         height: 500px;
-        width: 100vw;
-        margin: 20px;
-        padding: 10px;
+        width: 350px;
+        margin: 0 auto;
+        padding: 5px;
     }
-    
+
     .veterinaria_seccion p {
         padding: 5px;
         font-size: 12px;
     }
-    
+
     .veterinaria_seccion h3 {
         font-size: 12px;
-        margin: 5px;
+        margin: 0 auto;
     }
-    
+
     .veterinaria_seccion img {
-        margin: 5px;
+        margin: 0 auto;
         width: 300px;
     }
-    .img_logo img{
+
+    .img_logo img {
         width: 40px;
     }
-    
+
     .turnos_veterinaria {
-        height: 320px;
+        height: 370px;
         width: 350px;
         margin-top: 20px;
         margin-right: 10px;
         border: #ca6602a2 5px solid;
     }
-    
+
     .turnos_veterinaria p {
         padding: 5px;
         font-size: 12px;
     }
-    
+
     .turnos_veterinaria li {
         padding: 5px;
     }
@@ -1063,10 +1132,11 @@ font-family: 'Montserrat', sans-serif; */
         width: 100vw;
         height: 300px;
     }
+
     .seccion_contacto h3 {
         font-size: 20px;
     }
-    
+
     .seccion_contacto p {
         font-size: 20px;
     }
