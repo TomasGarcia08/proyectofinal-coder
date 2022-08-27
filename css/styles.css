@@ -12,33 +12,17 @@ font-family: 'Montserrat', sans-serif; */
     box-sizing: border-box;
 }
 
-.body {
-    background: linear-gradient(to bottom, burlywood, rgba(128, 77, 0, 0.366));
-}
-
-.body-productos {
-    background: linear-gradient(to bottom, burlywood, rgba(128, 77, 0, 0.366));
-}
-
-.body-accesorios {
-    background: linear-gradient(to bottom, burlywood, rgba(128, 77, 0, 0.36));
-}
-
-.body-servicios {
-    background: linear-gradient(to bottom, burlywood, rgba(128, 77, 0, 0.36));
-}
 
 /* header */
 
 .header {
-    background-image: url(https://cdn.pixabay.com/photo/2017/06/11/23/05/dog-2393826__340.jpg);
-    background-size: contain;
     text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTazlMN1W0p0xHpfSYnypKcGLmhoj7kbtVXKg&usqp=CAU);
 }
 
 .primer_parrafo {
-    color: black;
-    background-color: burlywood;
+    color: white;
+    background-color: black;
 
 }
 
@@ -48,42 +32,37 @@ font-family: 'Montserrat', sans-serif; */
 
 .nombreP {
     text-align: center;
-    color: burlywood;
+    color: black;
  }
+.nombreP:hover {
+    background-color: #00ffff9f;
 
-.nav {
-    background-image: url(https://cdn.pixabay.com/photo/2017/06/11/23/05/dog-2393826__340.jpg);
-    background-repeat: no-repeat;
-    text-align: center;
 }
 
 .nav ul {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
 }
 
 .nav li {
     margin: 10px;
     padding: 5px;
     width: 150px;
-    background-color: burlywood;
+    background-color: #000000;
 
 }
 
 .nav a {
     text-decoration: none;
-    color: #780000;
+    color: white;
 }
 
 .nav a:hover {
-    background-color: wheat;
+    background-color: cyan;
 }
 
 .logo_inicio {
     width: 250px;
     border-radius: 10%;
-
 }
 
 
@@ -119,12 +98,15 @@ font-family: 'Montserrat', sans-serif; */
     width: 900px;
     margin: 0 auto;
     color: black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .segunda_seccion p {
     display: inline-block;
     padding: 5px;
 }
+
 
 .titulo_destacado {
     text-align: center;
@@ -135,15 +117,14 @@ font-family: 'Montserrat', sans-serif; */
 
 .titulo_destacado h3 {
     text-decoration: none;
-    color: black;
-    background-color: burlywood;
+    color: white;
+    background-color: black;
 }
-
 .tercera_seccion {
     width: 100%;
     text-align: center;
+    margin: 15px;
 }
-
 .tercera_seccion div {
     width: 20%;
     display: inline-block;
@@ -154,35 +135,19 @@ font-family: 'Montserrat', sans-serif; */
     text-align: center;
     padding: 5px;
     margin: 5px;
-
 }
-
 .tercera_seccion img {
     width: 200px;
 }
 
-.div_banner {
-    background-image: url(https://media.istockphoto.com/photos/happy-pet-dog-holding-in-mouth-blue-toy-bone-against-solid-colour-picture-id1271793136?k=20&m=1271793136&s=170667a&w=0&h=f6I-je6RmqB6jsFgbyCl1LFSKJzh-MsAlm8_7sT-y6Y=);
-    height: 300px;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    background-color: #fec341;
-    margin: 10px;
-}
 
-.div_banner h3 {
-    text-decoration: none;
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 30px;
-}
 
 /* footer { */
 
 .footer {
     text-align: center;
     font-size: 13px;
-    background-color: rgba(222, 184, 135, 0.656);
+    background-color: #00ffff4d;
 }
 
 .footer ul {
