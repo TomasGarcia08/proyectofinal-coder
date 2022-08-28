@@ -18,16 +18,12 @@ font-family: 'Montserrat', sans-serif; */
 .header {
     text-align: center;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTazlMN1W0p0xHpfSYnypKcGLmhoj7kbtVXKg&usqp=CAU);
+    background-size: contain;
 }
 
 .primer_parrafo {
     color: white;
     background-color: black;
-
-}
-
-.form {
-    display: inline;
 }
 
 .nombreP {
@@ -36,7 +32,6 @@ font-family: 'Montserrat', sans-serif; */
  }
 .nombreP:hover {
     background-color: #00ffff9f;
-
 }
 
 .nav ul {
@@ -48,7 +43,6 @@ font-family: 'Montserrat', sans-serif; */
     padding: 5px;
     width: 150px;
     background-color: #000000;
-
 }
 
 .nav a {
@@ -82,7 +76,7 @@ font-family: 'Montserrat', sans-serif; */
     background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=600);
     height: 300px;
     margin: 10px;
-    padding: 25px;
+    padding: 5px;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -107,13 +101,10 @@ font-family: 'Montserrat', sans-serif; */
     padding: 5px;
 }
 
-
 .titulo_destacado {
     text-align: center;
-    margin: 30px;
     transform: skew(-20deg)
 }
-
 
 .titulo_destacado h3 {
     text-decoration: none;
@@ -123,7 +114,7 @@ font-family: 'Montserrat', sans-serif; */
 .tercera_seccion {
     width: 100%;
     text-align: center;
-    margin: 15px;
+    margin: 5px;
 }
 .tercera_seccion div {
     width: 20%;
@@ -141,13 +132,12 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 
-
 /* footer { */
 
 .footer {
     text-align: center;
-    font-size: 13px;
-    background-color: #00ffff4d;
+    font-size: 10px;
+    background-color: white;
 }
 
 .footer ul {
@@ -471,10 +461,6 @@ font-family: 'Montserrat', sans-serif; */
 
 
 /* contacto */
-.contacto-gradients {
-    background: linear-gradient(to bottom, burlywood, rgba(128, 77, 0, 0.366));
-    color: #FDF0D5;
-}
 
 .imagen_contacto {
     background-color: rgba(255, 166, 0, 0.3);
@@ -913,7 +899,7 @@ font-family: 'Montserrat', sans-serif; */
     }
 
     .segunda_seccion {
-        background-color: #FDF0D5;
+        background-color: white;
         color: black;
         text-align: center;
     }
@@ -950,13 +936,6 @@ font-family: 'Montserrat', sans-serif; */
         width: 200px;
     }
 
-    .div_banner h3 {
-        font-size: 20px;
-    }
-
-    .div_banner img {
-        width: 50px;
-    }
 
     .grid_galeria {
         max-width: 400px;

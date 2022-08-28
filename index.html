@@ -21,17 +21,17 @@
                     alt="instagram"> </a>
         </p>
         <br>
-        <a class="navbar-brand" href="./index.html"> <img src="./imagenes/logo-estacionmascota.jpeg"
+        <a class="navbar-brand" href="./index.html"><img src="./imagenes/logo-estacionmascota.jpeg"
                 alt="estacion mascota" class="logo_inicio"></a>
         <h1 class="nombreP animate__animated animate__backInLeft text-dark"><b>ESTACION MASCOTAS</b></h1>
         <h2 class="nombreP animate__animated animate__backInRight text-dark"><b>Pet Shop</b></h2>
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <button class="navbar-toggler justify-content: center;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center  " id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav nav">
                         <li class="nav-item">
                             <a class="nav-link" href="./index.html">INICIO</a>
@@ -54,14 +54,29 @@
         </nav>
     </header>
     <main class="main">
-        <section class="primera_seccion">
-            <h3 class="fs-6">DALE A TU MASCOTA LO QUE SE MERECE</h3>
-            <div>
-                <a href="./pages/productos.html">
-                    <img src="./imagenes/flecha-correcta.png" alt="flecha-derecha">COMPRAR</a>
-                <img src="./imagenes/flecha-correcta (1).png" alt="flecha2">
+        <section class="container mx-auto m-2">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/Purina%C2%AE%20Familia%20de%20Productos.jpg"
+                            class="d-block  img-fluid" alt="carousel">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/2021-03/Banner-Pro-Plan.png"
+                            class="d-block img-fluid" alt="carousel">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <p>ENCONTRA LOS MEJORES PRODUCTOS AL MEJOR PRECIO</p>
         </section>
         <section class="segunda_seccion">
             <p><img src="./imagenes/camion.png" alt="camion"> ENVIOS A DOMICILIO SIN CARGO </p>
@@ -69,7 +84,7 @@
                 CREDITO O DE DEBITO </p>
         </section>
         <div class="titulo_destacado">
-            <h3 class="fs-5"> PRODUCTOS DESTACADOS Y CON KILOS DE REGALO!!</h3>
+            <h3 class="fs-6"> PRODUCTOS DESTACADOS Y CON KILOS DE REGALO!!</h3>
         </div>
         <section class="tercera_seccion">
             <div>
@@ -99,32 +114,13 @@
                 <p>$8.000</p>
             </div>
         </section>
-        <section class="container">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/Purina%C2%AE%20Familia%20de%20Productos.jpg"
-                            class="d-block w-70 img-fluid" alt="carousel">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/2021-03/Banner-Pro-Plan.png"
-                            class="d-block w-70 img-fluid" alt="carousel">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT04FdEJ9pCyWLSl1eMFO7MeJWTonSWxO6Gww&usqp=CAU"
-                            class="d-block w-100 img-fluid" alt="carousel">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+        <section class="primera_seccion">
+            <h3 class="fs-6">DALE A TU MASCOTA LO QUE SE MERECE</h3>
+            <div>
+                <a href="./pages/productos.html">
+                    <img src="./imagenes/flecha-correcta.png" alt="flecha-derecha">COMPRAR</a>
+                <img src="./imagenes/flecha-correcta (1).png" alt="flecha2">
+                <p>ENCONTRA LOS MEJORES PRODUCTOS AL MEJOR PRECIO</p>
             </div>
         </section>
     </main>
@@ -146,13 +142,13 @@
                 <a href="./pages/contacto.html">CONTACTO</a>
             </li>
         </ul>
-        <h4>SEGUINOS: </h4>
+        <h4 class="fs-6">SEGUINOS: </h4>
         <ul>
             <li>
                 <a href="https://www.instagram.com/estacionmascotas16/" target="_blank">INSTAGRAM</a>
             </li>
         </ul>
-        <h4>CONTACTANOS:</h4>
+        <h4 class="fs-6">CONTACTANOS:</h4>
         <ul>
             <li> <a href="https://web.whatsapp.com/" target="_blank"> <img src="./imagenes/whatsapp.png" alt="wsp"></a>
                 3518050814 </li>
