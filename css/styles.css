@@ -17,8 +17,6 @@ font-family: 'Montserrat', sans-serif; */
 
 .header {
     text-align: center;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTazlMN1W0p0xHpfSYnypKcGLmhoj7kbtVXKg&usqp=CAU);
-    background-size: contain;
 }
 
 .primer_parrafo {
@@ -103,7 +101,8 @@ font-family: 'Montserrat', sans-serif; */
 
 .titulo_destacado {
     text-align: center;
-    transform: skew(-20deg)
+    transform: skew(-20deg);
+    margin: 15px;
 }
 
 .titulo_destacado h3 {
@@ -135,9 +134,12 @@ font-family: 'Montserrat', sans-serif; */
 /* footer { */
 
 .footer {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-size: 10px;
     background-color: white;
+    align-items: center;
 }
 
 .footer ul {
@@ -146,9 +148,9 @@ font-family: 'Montserrat', sans-serif; */
 
 .footer li {
     display: inline-block;
-    padding: 5px;
-    margin: 10px;
     border: 5px black double;
+    padding: 5px;
+    margin: 5px;
 }
 
 .footer a {
@@ -198,6 +200,7 @@ font-family: 'Montserrat', sans-serif; */
 
 .aside ul {
     text-align: center;
+    list-style-type: none;
 }
 
 .aside li {
@@ -247,6 +250,7 @@ font-family: 'Montserrat', sans-serif; */
 
 .aside_cat ul {
     text-align: center;
+    list-style-type: none;
 }
 
 .aside_cat li {
@@ -588,6 +592,7 @@ font-family: 'Montserrat', sans-serif; */
         margin-top: 30px;
         margin-right: 10px;
     }
+
     
 }
 
@@ -642,10 +647,6 @@ font-family: 'Montserrat', sans-serif; */
 
     .tercera_seccion img {
         width: 120px;
-    }
-
-    .div_banner h3 {
-        font-size: 25px;
     }
 
     .footer {
@@ -722,7 +723,6 @@ font-family: 'Montserrat', sans-serif; */
         align-items: center;
     }
 
-
     .seccion_productosg img {
         margin-top: 10px;
     }
@@ -732,7 +732,6 @@ font-family: 'Montserrat', sans-serif; */
         height: 300px;
         display: inline-block;
         text-align: center;
-
     }
 
     .aside_cat ul {
@@ -899,7 +898,6 @@ font-family: 'Montserrat', sans-serif; */
     }
 
     .segunda_seccion {
-        background-color: white;
         color: black;
         text-align: center;
     }
@@ -914,7 +912,7 @@ font-family: 'Montserrat', sans-serif; */
     }
 
     .titulo_destacado h3 {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .tercera_seccion {
@@ -935,8 +933,7 @@ font-family: 'Montserrat', sans-serif; */
     .tercera_seccion img {
         width: 200px;
     }
-
-
+    
     .grid_galeria {
         max-width: 400px;
         align-content: center;
@@ -1083,5 +1080,5 @@ font-family: 'Montserrat', sans-serif; */
 
     .seccion_contacto p {
         font-size: 20px;
-    }
+    }        
 }
