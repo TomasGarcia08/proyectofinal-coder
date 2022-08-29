@@ -346,28 +346,28 @@ font-family: 'Montserrat', sans-serif; */
 /* servicios */
 .contenedor_servicios {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .peluqueria_seccion {
-    height: 800px;
+    height: 820px;
     width: 710px;
-    background-color: blanchedalmond;
+    background-color: white;
     text-align: center;
-    color: #FDF0D5;
+    color: white;
     margin: 50px;
     padding: 25px;
-    border: #780000 5px solid;
+    border: black 5px solid;
     border-radius: 10%;
 }
 
 .peluqueria_seccion p {
-    background-color: #780000;
+    background-color: black;
     padding: 10px;
 }
 
 .peluqueria_seccion h3 {
-    background-color: #780000;
+    background-color: black;
     margin: 10px;
 }
 
@@ -377,90 +377,77 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .turnos_peluqueria {
-    height: 550px;
+    height: 450px;
     width: 350px;
-    background-color: #FDF0D5;
-    color: #780000;
+    background-color: black;
+    color: white;
     margin-top: 250px;
-    margin-right: 200px;
-    border: #780000 5px solid;
+    border: white 5px solid;
     border-radius: 10%;
+    text-align: center;
 }
 
 .turnos_peluqueria p {
-    padding: 10px;
-    text-align: center;
+    padding: 5px;
 }
-
 .turnos_peluqueria ul {
-    text-align: center;
-}
-
-.turnos_peluqueria li {
-    padding: 10px;
     list-style-type: none;
+    padding: 10px;
 }
-
 .turnos_peluqueria a {
-    color: #780000;
+    color: white;
 }
 
 .veterinaria_seccion {
-    height: 800px;
+    height: 830px;
     width: 710px;
-    background-color: #780000;
+    background-color: black;
     text-align: center;
-    color: #780000;
+    color: black;
     margin: 50px;
     padding: 25px;
-    border: #ca6602a2 5px solid;
+    border: white 5px solid;
     border-radius: 10%;
 }
 
 .veterinaria_seccion p {
-    background-color: #FDF0D5;
+    background-color: white;
     padding: 10px;
 }
 
 .veterinaria_seccion h3 {
-    background-color: #FDF0D5;
+    background-color: white;
     margin: 10px;
 }
 
 .veterinaria_seccion img {
-    background-color: #FDF0D5;
+    background-color: white;
     margin: 10px;
     border-radius: 10%;
 }
 
 .turnos_veterinaria {
-    height: 550px;
+    height: 600px;
     width: 350px;
-    background-color: #780000;
+    background-color: white;
     text-align: center;
-    color: #FDF0D5;
-    margin-top: 250px;
-    margin-right: 200px;
-    border: #ca6602a2 5px solid;
+    color: black;
+    margin-top: 200px;
+    border: black 5px solid;
     border-radius: 10%;
 }
 
 .turnos_veterinaria p {
     padding: 10px;
-    text-align: center;
 }
 
 .turnos_veterinaria ul {
-    text-align: center;
-}
-
-.turnos_veterinaria li {
     padding: 10px;
     list-style-type: none;
 }
 
 .turnos_veterinaria a {
-    color: #FDF0D5;
+    color: black;
 }
 
 
@@ -799,7 +786,7 @@ font-family: 'Montserrat', sans-serif; */
     }
 
     .turnos_peluqueria {
-        height: 330px;
+        height: 500px;
         width: 350px;
         margin-top: 20px;
         margin-right: 5px;
@@ -841,7 +828,7 @@ font-family: 'Montserrat', sans-serif; */
     }
 
     .turnos_veterinaria {
-        height: 380px;
+        height: 600px;
         width: 350px;
         margin: 20px;
         margin-top: 20px;
@@ -1019,11 +1006,11 @@ font-family: 'Montserrat', sans-serif; */
     }
 
     .turnos_peluqueria {
-        height: 300px;
+        height: 480px;
         width: 350px;
         margin-top: 20px;
         margin-right: 1px;
-        border: #780000 5px solid;
+        border: white 5px solid;
         border-radius: 10%;
     }
 
@@ -1039,7 +1026,7 @@ font-family: 'Montserrat', sans-serif; */
     .veterinaria_seccion {
         height: 500px;
         width: 350px;
-        margin: 0 auto;
+        margin: 10px auto;
         padding: 5px;
     }
 
@@ -1063,11 +1050,11 @@ font-family: 'Montserrat', sans-serif; */
     }
 
     .turnos_veterinaria {
-        height: 370px;
+        height: 580px;
         width: 350px;
         margin-top: 20px;
         margin-right: 10px;
-        border: #ca6602a2 5px solid;
+        border: black 5px solid;
     }
 
     .turnos_veterinaria p {
