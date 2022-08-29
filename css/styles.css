@@ -167,7 +167,7 @@ font-family: 'Montserrat', sans-serif; */
     display: inline-block;
     align-items: center;
     width: 200px;
-    height: 250px;
+    height: 300px;
     background-color: black;
     color: white;
     text-align: center;
@@ -216,7 +216,7 @@ font-family: 'Montserrat', sans-serif; */
 .seccion_productosg div {
     display: inline-block;
     width: 200px;
-    height: 280px;
+    height: 300px;
     background-color: white;
     color: black;
     text-align: center;
@@ -701,7 +701,7 @@ font-family: 'Montserrat', sans-serif; */
         display: flex;
         flex-direction: column;
         width: 170px;
-        height: 270px;
+        height: 320px;
     }
 
     .aside {
@@ -729,7 +729,7 @@ font-family: 'Montserrat', sans-serif; */
 
     .aside_cat {
         width: 200px;
-        height: 300px;
+        height: 320px;
         display: inline-block;
         text-align: center;
     }
@@ -742,6 +742,7 @@ font-family: 'Montserrat', sans-serif; */
         width: 300px;
         height: 50px;
         padding-top: 5px;
+        transform: skew(-15deg) translate(180px);
         font-size: 20px;
     }
 
@@ -933,6 +934,15 @@ font-family: 'Montserrat', sans-serif; */
     .tercera_seccion img {
         width: 200px;
     }
+
+    .imagen_producto h4 {
+        width: 300px;
+        height: 50px;
+        padding-top: 5px;
+        font-size: 20px;
+        transform: skew(-15deg) translate(20px);
+    }
+
 
     .grid_galeria {
         max-width: 400px;
