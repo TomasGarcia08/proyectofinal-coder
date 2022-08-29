@@ -463,17 +463,15 @@ font-family: 'Montserrat', sans-serif; */
 
 .seccion_contacto {
     text-align: center;
-    font-family: 'Mouse Memoirs', sans-serif;
+    color: white;
 }
 
 .seccion_contacto h3 {
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .seccion_contacto p {
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .mapa_iframe {
